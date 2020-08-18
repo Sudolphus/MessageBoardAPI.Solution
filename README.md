@@ -51,8 +51,4 @@ Contact : James Henager (jameschenager@gmail.com) with any questions or concerns
 * Entity Framework
 * MySQL
 * RESTful routing
-* 
-
-
-## **📘 License**
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+* SWAGGER
