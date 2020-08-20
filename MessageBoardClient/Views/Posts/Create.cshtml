@@ -1,0 +1,10 @@
+@model MessageBoardClient.Models.Post
+
+@using (Html.BeginForm("Create", "Posts", new { threadId = ViewBag.ThreadId }))
+{
+  @Html.LabelFor(p => p.Title)
+  @Html.TextBoxFor(p => p.Title)
+  @Html.LabelFor(p => p.PostBody)
+  @Html.TextBoxFor(p => p.PostBody)
+  <input type="submit" value="Add Post" class="btn btn-primary" />
+}
